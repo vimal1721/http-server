@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'maater', url: 'https://github.com/vimal1721/http-server.git'
+                git branch: 'master', url: 'https://github.com/vimal1721/http-server.git'
             }
         }
         stage('Build') {
